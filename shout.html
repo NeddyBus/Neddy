@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Neddy - Shout</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="./css/style.css">
+   <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+   <meta name="theme-color" content="#2C3E50">
+
+   <script>
+     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+     ga('create', 'UA-63110617-3', 'auto');
+     ga('send', 'pageview');
+  </script>
+</head>
+
+<body style="background-color: #2C3E50;">
+   <!-- Menu -->
+   <div id="menu">
+      <a href="index.php">Home</a>
+      <a href="about.html">About</a>
+      <a href="shout.html">Shout</a>
+   </div>
+
+   <!-- Navigation Bar -->
+   <div id="navbar">
+      <a href="index.php" id="navbar-logo">Neddy</a>
+      <div id="navbar-button" onclick="toggleMenu()">
+         <span id="navbar-button-a"></span>
+         <span id="navbar-button-b"></span>
+         <span id="navbar-button-c"></span>
+      </div>
+   </div>
+
+   <!-- Content -->
+   <div id="content">
+      <h1 id="content-heading">Shout</h1>
+      <p id="content-body">Neddy - GOD</p>
+      <p id="content-body">Corbyn - Drinks leaking liquid crystal</p>
+      <p id="content-body">Fighpad - Called fighpad because reasons</p>
+      <p id="content-body">Pleb - Called pleb becaue he is pleb</p>
+      <p id="content-body">D-BOX - The seats at cineworld</p>
+      <p id="content-body">Speny - Speny rV</p>
+      <h1 id="content-heading">Want a shout? Scroll Down!</h1>
+      <pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </pre>
+      <h1 id="content-heading">No.</h1>
+   </div>
+
+   <!-- Javascript -->
+   <script>
+      menuVisible = false;
+
+      function toggleMenu() {
+         if (!menuVisible) {
+            document.body.style.overflow = "hidden";
+            document.getElementById("menu").style.visibility = "visible";
+            document.getElementById("menu").style.opacity = "1";
+            document.getElementById("navbar-button").id += "-active";
+            menuVisible = true;
+         } else {
+            document.body.style.overflow = "visible";
+            document.getElementById("menu").style.visibility = "hidden";
+            document.getElementById("menu").style.opacity = "0";
+            document.getElementById("navbar-button-active").id = "navbar-button";
+            menuVisible = false;
+         }
+      }
+   </script>
+</body>
+</html>
